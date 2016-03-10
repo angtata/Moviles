@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="Welcome">Concentration Game!!</string>
+    <string name="Nivel">Escoge el nivel que deseas</string>
+    <string name="cinco">4x4</string>
+    <string name="siete">4x2</string>
+    <string name="diez">3x2</string>
+    <string name="trampa">Reiniciar Juego</string>
+
+    <string name="app_name">FirstApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="NewVal">Primera App Mogo!</string>
+    <string name="buttontitle">Open web site</string>
+    <string name="buttontitle2">Open Activity</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_activity_three">activity_three</string>
+    <string name="boton">Boton!!</string>
+    <string name="title_activity_cuatro">Cuatro</string>
+    <string name="HolaGente">Hola!!!!</string>
+    <string name="title_activity_main_concentration_game">MainConcentrationGame</string>
+    <string name="title_activity_fivexfive">fivexfive</string>
+</resources>

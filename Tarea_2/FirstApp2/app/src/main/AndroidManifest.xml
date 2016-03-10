@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.javeriana.fapp.firstapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SecondActivity"
+            android:label="@string/title_activity_second" />
+        <activity
+            android:name=".activity_three"
+            android:label="@string/title_activity_activity_three" />
+        <activity
+            android:name=".Cuatro"
+            android:label="@string/title_activity_cuatro" />
+        <activity
+            android:name=".MainConcentrationGame"
+            android:label="@string/title_activity_main_concentration_game"
+            android:parentActivityName=".activity_three">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.javeriana.fapp.firstapp.activity_three" />
+        </activity>
+        <activity
+            android:name=".fivexfive"
+            android:label="@string/title_activity_fivexfive"></activity>
+    </application>
+
+</manifest>

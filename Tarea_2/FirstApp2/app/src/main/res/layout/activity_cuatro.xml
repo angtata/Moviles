@@ -1,0 +1,114 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:columnWidth="10dp"
+    android:numColumns="auto_fit"
+    android:verticalSpacing="10dp"
+    android:horizontalSpacing="10dp"
+    android:stretchMode="columnWidth"
+    android:gravity="center"
+
+    android:rowCount="5"
+    android:columnCount="4">
+
+    <Button android:id="@+id/close"
+        android:text="BloqNum"
+        android:layout_row="0"
+        android:layout_column="0"
+        />
+    <Button android:id="@+id/close1"
+        android:text="/"
+        android:layout_row="0"
+        android:layout_column="1"
+        />
+    <Button android:id="@+id/close2"
+        android:text="*"
+        android:layout_row="0"
+        android:layout_column="2"
+        />
+    <Button android:id="@+id/close3"
+        android:text="-"
+        android:layout_row="0"
+        android:layout_column="3"
+        />
+    <Button android:id="@+id/close4"
+        android:text="7"
+        android:layout_row="1"
+        android:layout_column="0"
+        />
+    <Button android:id="@+id/close5"
+        android:text="8"
+        android:layout_row="1"
+        android:layout_column="1"
+        />
+    <Button android:id="@+id/close6"
+        android:text="9"
+        android:layout_row="1"
+        android:layout_column="2"
+        />
+    <Button android:id="@+id/close7"
+        android:text="+"
+        android:layout_gravity="fill_vertical"
+        android:layout_rowSpan="2"
+        android:layout_row="1"
+        android:layout_column="3"
+        />
+    <Button android:id="@+id/close8"
+        android:text="4"
+        android:layout_row="2"
+        android:layout_column="0"
+        />
+    <Button android:id="@+id/close9"
+        android:text="5"
+        android:layout_row="2"
+        android:layout_column="1"
+        />
+    <Button android:id="@+id/close10"
+        android:text="6"
+        android:layout_row="2"
+        android:layout_column="2"
+        />
+    <Button android:id="@+id/close11"
+        android:text="1"
+        android:layout_row="3"
+        android:layout_column="0"
+        />
+    <Button android:id="@+id/close12"
+        android:text="2"
+        android:layout_row="3"
+        android:layout_column="1"
+        />
+    <Button android:id="@+id/close13"
+        android:text="3"
+        android:layout_row="3"
+        android:layout_column="2"
+        />
+
+    <Button android:id="@+id/close14"
+        android:text="intro"
+        android:layout_rowSpan="2"
+        android:layout_gravity="fill_vertical"
+        android:layout_row="3"
+        android:layout_column="3"
+        />
+
+    <Button android:id="@+id/close15"
+        android:text="0"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnSpan="2"
+        android:layout_row="4"
+        android:layout_column="0"
+        />
+    <Button android:id="@+id/close16"
+        android:text="."
+        android:layout_row="4"
+        android:layout_column="2"
+        />
+
+
+
+
+
+</GridLayout>
